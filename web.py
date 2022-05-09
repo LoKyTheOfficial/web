@@ -441,14 +441,14 @@ Change 'Allow Override None' to 'AllowOverride All'.
 
 if __name__ == '__main__':
 
-	if not 'SUDO_UID' in os.environ.keys():
-		print ("""
-=======================================================
-		Use this script as sudo.
-=======================================================
-
-""")
-		sys.exit(1)
+#	if not 'SUDO_UID' in os.environ.keys():
+#		print ("""
+#=======================================================
+#		Use this script as sudo.
+#=======================================================
+#
+#""")
+#		sys.exit(1)
 
 	while 1:
 		main()
